@@ -78,7 +78,6 @@ public class Contact {
 
     public Contact() {
     }
-
     public Contact(String firstName, String lastName, String address, String city, String state, int zipcode, long phoneNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;

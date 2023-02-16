@@ -9,6 +9,7 @@ public class AddressBook {
 
         System.out.println("Enter details : ");
         person.getPersonDetails();
+
     }
 
     public void editPersonDetails(){
@@ -55,6 +56,7 @@ public class AddressBook {
                 break;
         }
     }
+
     @Override
     public String toString() {
         return "AddressBook{" +
