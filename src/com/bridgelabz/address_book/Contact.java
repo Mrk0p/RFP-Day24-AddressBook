@@ -75,7 +75,6 @@ public class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
-
     public Contact() {
     }
     public Contact(String firstName, String lastName, String address, String city, String state, int zipcode, long phoneNumber, String email) {
