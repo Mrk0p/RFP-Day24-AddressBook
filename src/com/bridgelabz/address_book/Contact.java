@@ -3,7 +3,7 @@ package com.bridgelabz.address_book;
 import java.util.Scanner;
 
 public class Contact {
-    private String firstName ;
+    private String firstName;
     private String lastName;
     private String address;
     private String city;
@@ -75,8 +75,10 @@ public class Contact {
     public void setEmail(String email) {
         this.email = email;
     }
+
     public Contact() {
     }
+
     public Contact(String firstName, String lastName, String address, String city, String state, int zipcode, long phoneNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -90,7 +92,7 @@ public class Contact {
 
     public void getPersonDetails(){
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter First Name : ");
+        System.out.print("Enter First Name : ") ;
         firstName = input.next();
         System.out.print("Enter Lat Name : ");
         lastName = input.next();
