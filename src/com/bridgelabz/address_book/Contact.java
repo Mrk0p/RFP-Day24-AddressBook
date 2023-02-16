@@ -3,7 +3,6 @@ package com.bridgelabz.address_book;
 import java.util.Scanner;
 
 public class Contact {
-
     private String firstName ;
     private String lastName;
     private String address;
@@ -109,6 +108,20 @@ public class Contact {
         phoneNumber = input.nextLong();
         System.out.print("Enter Email ID : ");
         email = input.next();
+    }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", address='" + address + '\'' +
+                ", city='" + city + '\'' +
+                ", state='" + state + '\'' +
+                ", zipcode=" + zipcode +
+                ", phoneNumber=" + phoneNumber +
+                ", email='" + email + '\'' +
+                '}';
     }
 }
 
